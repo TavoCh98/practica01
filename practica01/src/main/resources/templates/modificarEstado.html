@@ -5,8 +5,7 @@
         <meta charset="UTF-8">
     </head>
     <body>
-        <h2>Información de Estados<h2/>
-            <br/>
+        <header th:replace="layout/plantilla2 :: header" />
             <a th:href="@{/}">Atrás</a>
             <br/>
             <br/>
@@ -24,5 +23,6 @@
                 <input type="number" name="costas" th:field="*{costas}" /><br/><br/>
                 <input type="submit" name="Salvar" value="Salvar" />
             </form>
+            <footer th:replace="layout/plantilla2 :: footer" />
     </body>
 </html>
