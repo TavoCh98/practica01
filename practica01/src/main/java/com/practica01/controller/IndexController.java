@@ -1,7 +1,7 @@
-package com.Estado.controller;
+package com.practica01.controller;
 
-import com.Estado.domain.Estado;
-import com.Estado.service.EstadoService;
+import com.practica01.domain.Estado;
+import com.practica01.service.EstadoService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

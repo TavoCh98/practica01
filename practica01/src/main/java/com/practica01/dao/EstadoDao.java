@@ -1,6 +1,6 @@
-package com.Estado.dao;
+package com.practica01.dao;
 
-import com.Estado.domain.Estado;
+import com.practica01.domain.Estado;
 import org.springframework.data.repository.CrudRepository;
 
 
